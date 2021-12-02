@@ -166,6 +166,12 @@
       <DependentUpon>MovieTheater.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\GenerosRepository.cs" />
+    <Compile Include="Repository\UpDataRepository.cs" />
+    <Compile Include="Servicios\IGeneros.cs" />
+    <Compile Include="Servicios\ILogin.cs" />
+    <Compile Include="Servicios\ITypeCount.cs" />
+    <Compile Include="Servicios\IUpData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />

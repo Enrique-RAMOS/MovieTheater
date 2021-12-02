@@ -49,7 +49,7 @@
                 {
 
                     <label>Titulo</label>
-                    @Html.TextBoxFor(a =>a.Titulo)
+                    @Html.TextBoxFor(a => a.Titulo)
                     <br />
 
                     <label>Caratula</label>
@@ -70,11 +70,15 @@
 
 
                     <label>Genero</label>
-                    @Html.DropDownListFor(a => a.Generos, new SelectList(ViewBag.listOfCoursescombobox, "Value", "Text"), "Seleccione un genero", new { @class = "form-control" })
+                    @Html.DropDownListFor(a => a.Generos, new SelectList(ViewBag.listOfGeneroscombobox, "Value", "Text"), "Seleccione un genero", new { @class = "form-control" })
                     <br />
 
-                    @Html.DisplayFor(a=> a.Año)
+                    <label>Año</label>
 
+                    @Html.DisplayFor(a => a.Año)
+
+                    <br />
+                    <br />
                     <input type="submit" value="Agregar" />
 
 
