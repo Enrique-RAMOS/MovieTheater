@@ -11,6 +11,10 @@ namespace PryectoMovieTheater.Controllers
     public class AdministradorwebController : Controller
     {
 
+        /// <summary>
+        /// //PRUEBAAAAAAAAAAAAAAAAAAAAAAA
+        /// </summary>
+
         GenerosRepository generosRepository = new GenerosRepository();
         Generos students = new Generos();
         // GET: Administradorweb
