@@ -21,6 +21,12 @@ namespace PryectoMovieTheater.Controllers
        [HttpGet]
         public ActionResult UpData()
         {
+            if (ModelState.Isvalid)
+            {
+
+                db.catalogoLibros.add(libros);
+                db.saveChanges();
+            }
 
             var informationGeneros = generosRepository.ListOfGeneros();
            
