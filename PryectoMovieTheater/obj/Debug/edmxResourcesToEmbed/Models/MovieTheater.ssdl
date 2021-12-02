@@ -39,8 +39,8 @@
     </Key>
     <Property Name="IdIngreso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Titulo" Type="varchar" MaxLength="50" />
-    <Property Name="Ubicacion" Type="varchar" MaxLength="50" />
     <Property Name="Caratula" Type="varchar" MaxLength="50" />
+    <Property Name="Ubicacion" Type="varchar" MaxLength="50" />
     <Property Name="Genero" Type="varchar" MaxLength="50" />
     <Property Name="Año" Type="datetime" />
     <Property Name="Sinopsis" Type="varchar" MaxLength="50" />
