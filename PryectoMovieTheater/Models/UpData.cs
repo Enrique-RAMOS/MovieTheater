@@ -21,6 +21,7 @@ namespace PryectoMovieTheater.Models
         public string Ubicacion { get; set; }
         public string Caratula { get; set; }
         public string Genero { get; set; }
+        [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public Nullable<System.DateTime> Año { get; set; }
         public string Sinopsis { get; set; }

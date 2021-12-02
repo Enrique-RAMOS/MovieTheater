@@ -16,6 +16,9 @@ namespace PryectoMovieTheater.Controllers
         GenerosRepository generosRepository = new GenerosRepository();
         Generos students = new Generos();
         // GET: Administradorweb
+
+
+       [HttpGet]
         public ActionResult UpData()
         {
 
@@ -36,7 +39,7 @@ namespace PryectoMovieTheater.Controllers
             }
           
       
-            return View();
+            return View("UpData");
         }
 
 
