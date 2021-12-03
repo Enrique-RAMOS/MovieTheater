@@ -11,7 +11,8 @@ namespace PryectoMovieTheater.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Web;
+
     public partial class UpData
     {
         public int IdIngreso { get; set; }
@@ -21,7 +22,7 @@ namespace PryectoMovieTheater.Models
         public string Genero { get; set; }
         public Nullable<System.DateTime> Año { get; set; }
         public string Sinopsis { get; set; }
-    
+        public HttpPostedFileBase file { get; set; }
         public virtual Generos Generos { get; set; }
     }
 }

@@ -228,8 +228,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="img\" />
     <Folder Include="Means\" />
+    <Folder Include="recursos\" />
     <Folder Include="Views\VidepPlay\" />
   </ItemGroup>
   <ItemGroup>

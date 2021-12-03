@@ -15,11 +15,13 @@ namespace PryectoMovieTheater.Controllers
 
         GenerosRepository generosRepository = new GenerosRepository();
         Generos students = new Generos();
-        // GET: Administradorweb
+    
 
 
-       [HttpGet]
-        public ActionResult UpData()
+ 
+
+        [HttpGet]
+        public ActionResult UpData(UpData datos)
         {
             
 
@@ -59,17 +61,17 @@ namespace PryectoMovieTheater.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(Recursos imagen)
+        public ActionResult Index(UpData imagen)
         {
 
 
 
-            String ruta = Server.MapPath("~/img/");
+            String ruta = Server.MapPath("~/recursos/");
             ruta += imagen.file.FileName;
 
             imagen.file.SaveAs(ruta);
 
-            return View();
+            return View("UpData");
         }
         public ActionResult Inicio()
         {

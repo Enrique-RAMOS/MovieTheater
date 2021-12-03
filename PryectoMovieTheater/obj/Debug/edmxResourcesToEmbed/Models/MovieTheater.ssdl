@@ -30,8 +30,7 @@
       <PropertyRef Name="Idtipe" />
     </Key>
     <Property Name="Idtipe" Type="int" Nullable="false" />
-    <Property Name="User" Type="nchar" MaxLength="10" />
-    <Property Name="Admin" Type="nchar" MaxLength="10" />
+    <Property Name="Users" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="UpData">
     <Key>

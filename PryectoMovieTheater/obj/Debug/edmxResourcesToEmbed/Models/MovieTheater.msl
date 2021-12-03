@@ -32,9 +32,8 @@
     <EntitySetMapping Name="TipeCount">
       <EntityTypeMapping TypeName="MovieTheaterModel.TipeCount">
         <MappingFragment StoreEntitySet="TipeCount">
+          <ScalarProperty Name="Users" ColumnName="Users" />
           <ScalarProperty Name="Idtipe" ColumnName="Idtipe" />
-          <ScalarProperty Name="User" ColumnName="User" />
-          <ScalarProperty Name="Admin" ColumnName="Admin" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

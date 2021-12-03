@@ -32,9 +32,8 @@
       <PropertyRef Name="Idtipe" />
     </Key>
     <Property Name="Idtipe" Type="Int32" Nullable="false" />
-    <Property Name="User" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-    <Property Name="Admin" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
     <NavigationProperty Name="Login" Relationship="Self.FK_Login_TipeCount" FromRole="TipeCount" ToRole="Login" />
+    <Property Name="Users" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="UpData">
     <Key>
