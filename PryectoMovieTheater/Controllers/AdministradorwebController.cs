@@ -64,13 +64,13 @@ namespace PryectoMovieTheater.Controllers
         public ActionResult Index(UpData imagen)
         {
 
-
-
+            _ = imagen;
+             
             String ruta = Server.MapPath("~/recursos/");
-            ruta += imagen.file.FileName;
-
-            imagen.file.SaveAs(ruta);
-
+            ruta += imagen.Ubicacion.FileName;
+            ruta += imagen.Caratula.FileName;
+            imagen.Ubicacion.SaveAs(ruta);
+            imagen.Caratula.SaveAs(ruta);
             return View("UpData");
         }
         public ActionResult Inicio()

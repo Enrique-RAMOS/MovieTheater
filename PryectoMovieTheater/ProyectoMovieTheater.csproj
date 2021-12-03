@@ -130,7 +130,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdministradorwebController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\VidepPlayController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -230,7 +229,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Means\" />
     <Folder Include="recursos\" />
-    <Folder Include="Views\VidepPlay\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
