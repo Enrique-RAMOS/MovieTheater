@@ -8,7 +8,7 @@
         <EntityTypeShape EntityType="MovieTheaterModel.Generos" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="MovieTheaterModel.Login" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
         <EntityTypeShape EntityType="MovieTheaterModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MovieTheaterModel.TipeCount" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieTheaterModel.TipeCount" Width="2.125" PointX="0.75" PointY="5.875" IsExpanded="true" />
         <EntityTypeShape EntityType="MovieTheaterModel.UpData" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="MovieTheaterModel.FK_UpData_Generos" ManuallyRouted="false" />
         <AssociationConnector Association="MovieTheaterModel.FK_Login_TipeCount" ManuallyRouted="false" />

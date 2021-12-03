@@ -15,8 +15,7 @@ namespace PryectoMovieTheater.Models
     public partial class TipeCount
     {
         public int Idtipe { get; set; }
-        public string User { get; set; }
-        public string Admin { get; set; }
+        public string Users { get; set; }
     
         public virtual Login Login { get; set; }
     }

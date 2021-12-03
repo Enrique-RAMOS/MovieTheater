@@ -11,7 +11,7 @@ namespace PryectoMovieTheater.Controllers
     public class AdministradorwebController : Controller
     {
 
-      
+        MovieTheaterEntities bd = new MovieTheaterEntities();
 
         GenerosRepository generosRepository = new GenerosRepository();
         Generos students = new Generos();
@@ -21,20 +21,19 @@ namespace PryectoMovieTheater.Controllers
        [HttpGet]
         public ActionResult UpData()
         {
-            if (ModelState.Isvalid)
-            {
-
-                db.catalogoLibros.add(libros);
-                db.saveChanges();
-            }
+            
 
             var informationGeneros = generosRepository.ListOfGeneros();
            
 
             List<SelectListItem> ComboboxOfGeneros = new List<SelectListItem>();
-            
+           
+
+         
+
             foreach (var iteracion in informationGeneros)
             {
+              
                 ComboboxOfGeneros.Add(new SelectListItem
                 {
 
@@ -42,6 +41,7 @@ namespace PryectoMovieTheater.Controllers
                     Value = Convert.ToString(iteracion.Generos1)
                 });
                 ViewBag.listOfGeneroscombobox = ComboboxOfGeneros;
+            
             }
           
       

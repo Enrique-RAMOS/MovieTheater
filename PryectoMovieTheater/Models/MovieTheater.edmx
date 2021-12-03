@@ -35,8 +35,7 @@
             <PropertyRef Name="Idtipe" />
           </Key>
           <Property Name="Idtipe" Type="int" Nullable="false" />
-          <Property Name="User" Type="nchar" MaxLength="10" />
-          <Property Name="Admin" Type="nchar" MaxLength="10" />
+          <Property Name="Users" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="UpData">
           <Key>
@@ -125,9 +124,8 @@
             <PropertyRef Name="Idtipe" />
           </Key>
           <Property Name="Idtipe" Type="Int32" Nullable="false" />
-          <Property Name="User" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="Admin" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <NavigationProperty Name="Login" Relationship="Self.FK_Login_TipeCount" FromRole="TipeCount" ToRole="Login" />
+          <Property Name="Users" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="UpData">
           <Key>
@@ -218,10 +216,9 @@
           <EntitySetMapping Name="TipeCount">
             <EntityTypeMapping TypeName="MovieTheaterModel.TipeCount">
               <MappingFragment StoreEntitySet="TipeCount">
+                <ScalarProperty Name="Users" ColumnName="Users" />
                 <ScalarProperty Name="Idtipe" ColumnName="Idtipe" />
-                <ScalarProperty Name="User" ColumnName="User" />
-                <ScalarProperty Name="Admin" ColumnName="Admin" />
-              </MappingFragment>
+                </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="UpData">
