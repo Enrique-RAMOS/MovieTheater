@@ -220,6 +220,9 @@
     <Content Include="Views\UpData\Index.cshtml" />
     <Content Include="Views\UpData\Home.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Login\peliculas.cshtml" />
+    <Content Include="Views\Login\Series.cshtml" />
+    <Content Include="Views\Login\Animes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

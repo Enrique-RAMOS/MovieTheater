@@ -16,5 +16,6 @@ namespace MovieTheater.Models
     {
         public int Idtipe { get; set; }
         public string Users { get; set; }
+        public string Admin { get; set; }
     }
 }

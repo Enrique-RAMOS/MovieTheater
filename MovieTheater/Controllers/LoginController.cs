@@ -14,5 +14,17 @@ namespace MovieTheater.Controllers
             return View();
         }
 
+        public ActionResult peliculas()
+        {
+            return View();
+        }
+        public ActionResult Series()
+        {
+            return View();
+        }
+        public ActionResult Animes()
+        {
+            return View();
+        }
     }
 }

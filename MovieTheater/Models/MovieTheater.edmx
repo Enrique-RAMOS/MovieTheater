@@ -10,6 +10,7 @@
             <PropertyRef Name="IdUser" />
           </Key>
           <Property Name="IdUser" Type="int" Nullable="false" />
+          <Property Name="IDtipe" Type="int" Nullable="false" />
           <Property Name="Email" Type="varchar" MaxLength="100" />
           <Property Name="Password" Type="varchar" MaxLength="100" />
         </EntityType>
@@ -28,7 +29,8 @@
             <PropertyRef Name="Idtipe" />
           </Key>
           <Property Name="Idtipe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Users" Type="varchar" MaxLength="50" />
+          <Property Name="Users" Type="varchar" MaxLength="200" />
+          <Property Name="Admin" Type="varchar" MaxLength="200" />
         </EntityType>
         <EntityType Name="UpData">
           <Key>
@@ -59,6 +61,7 @@
           <Property Name="IdUser" Type="Int32" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IDtipe" Type="Int32" Nullable="false" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -75,7 +78,8 @@
             <PropertyRef Name="Idtipe" />
           </Key>
           <Property Name="Idtipe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Users" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Users" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Admin" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="UpData">
           <Key>
@@ -104,6 +108,7 @@
           <EntitySetMapping Name="Login">
             <EntityTypeMapping TypeName="MovieTheaterModel.Login">
               <MappingFragment StoreEntitySet="Login">
+                <ScalarProperty Name="IDtipe" ColumnName="IDtipe" />
                 <ScalarProperty Name="IdUser" ColumnName="IdUser" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Password" ColumnName="Password" />
@@ -124,6 +129,7 @@
           <EntitySetMapping Name="TipeCount">
             <EntityTypeMapping TypeName="MovieTheaterModel.TipeCount">
               <MappingFragment StoreEntitySet="TipeCount">
+                <ScalarProperty Name="Admin" ColumnName="Admin" />
                 <ScalarProperty Name="Idtipe" ColumnName="Idtipe" />
                 <ScalarProperty Name="Users" ColumnName="Users" />
               </MappingFragment>

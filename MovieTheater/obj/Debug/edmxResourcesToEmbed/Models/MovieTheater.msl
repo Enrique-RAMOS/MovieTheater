@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Login">
       <EntityTypeMapping TypeName="MovieTheaterModel.Login">
         <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="IDtipe" ColumnName="IDtipe" />
           <ScalarProperty Name="IdUser" ColumnName="IdUser" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Password" ColumnName="Password" />
@@ -24,6 +25,7 @@
     <EntitySetMapping Name="TipeCount">
       <EntityTypeMapping TypeName="MovieTheaterModel.TipeCount">
         <MappingFragment StoreEntitySet="TipeCount">
+          <ScalarProperty Name="Admin" ColumnName="Admin" />
           <ScalarProperty Name="Idtipe" ColumnName="Idtipe" />
           <ScalarProperty Name="Users" ColumnName="Users" />
         </MappingFragment>
