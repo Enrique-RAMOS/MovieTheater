@@ -64,5 +64,10 @@ namespace MovieTheater.Controllers
         {
             return View();
         }
+
+        public ActionResult Ayuda()
+        {
+            return View();
+        }
     }
 }

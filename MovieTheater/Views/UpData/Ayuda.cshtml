@@ -1,8 +1,9 @@
-﻿@model MovieTheater.Models.UpDatacopy
+﻿
 @{
     Layout = null;
 }
 
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">Bienvenido a Administrador</a>
+            <a class="navbar-brand" href="#page-top">Bienvenido a MovieTheater-Teatro</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -48,7 +49,7 @@
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Gestion</h1>
+                    <h1 class="mx-auto my-0 text-uppercase">Cartelera</h1>
 
 
                 </div>
@@ -60,80 +61,21 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Administrar</h2>
+                    <h2 class="text-white mb-4">Estrenos de diciembre</h2>
                     <p class="text-white-50">
-                        <section class="contact-section bd-placeholder-img">
+                        <section class="contact-section bg-black">
                             <div class="container px-4 px-lg-5">
-
-
-                                <!--1111111111111 About11111111111111111111111111111-->
-                                @using (Html.BeginForm("Home", "UpData", FormMethod.Post, new { enctype = "multipart/form-data" }))
-                                {
-
-                                    <label>Titulo</label>
-                                    <div class="">
-
-                                        @Html.TextBoxFor(a => a.Titulo)
-
-                                    </div>
-
-                                    <br />
-                                    <br />
-                                    <label>Caratula</label>
-
-                                    @Html.TextBoxFor(a => a.Caratula, new { Type = "file" })
-
-                                    <br />
-                                    <br />
-                                    <label>Año</label>
-
-                                    @Html.TextBoxFor(a => a.Año)
-
-                                    <br />
-                                    <br />
-                                    <label>Video</label>
-
-                                    @Html.TextBoxFor(a => a.Ubicacion, new { Type = "file" })
-
-                                    <br />
-                                    <br />
-
-                                    <label>Genero</label>
-
-                                    @Html.TextBoxFor(a => a.Genero)
-                                    <br />
-                                    <br />
-
-                                    <label>Sipnosis</label>
-
-                                    @Html.TextAreaFor(a => a.Sinopsis)
-
-                                    <br />
-                                    <br />
-
-
-
-                                    <br />
-                                    <input type="submit" value="Agregar" />
-
-
-
-                                    <br />
-                                }
-
-
-
+                                <img class="img-fluid" src="~/Content/img/Ayuda/1.png" alt="..." />
+                                <img class="img-fluid" src="~/Content/img/Ayuda/2.png" alt="..." />
+                                <img class="img-fluid" src="~/Content/img/Ayuda/3.png" alt="..." />
                             </div>
+                                </div>
 
                             </div>
                         </section>
 
-                    </p>
-                </div>
-            </div>
             <!-- IMAGEN !!-->
-            <img class="img-fluid" src="/img/img7.jpg" alt="..." />
-        </div>
+            
     </section>
     <!-- Projects-->
     <!-- Featured Project Row-->
@@ -144,7 +86,7 @@
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Suscribete para mas contenido  !</h2>
+                    <h2 class="text-white mb-5">Subscribe for more content and rate us !</h2>
 
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
