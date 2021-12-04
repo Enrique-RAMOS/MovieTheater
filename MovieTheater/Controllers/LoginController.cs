@@ -26,5 +26,9 @@ namespace MovieTheater.Controllers
         {
             return View();
         }
+        public ActionResult VerVideo()
+        {
+            return View();
+        }
     }
 }
