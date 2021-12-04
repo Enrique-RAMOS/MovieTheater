@@ -1,0 +1,202 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+<style >
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+</style >
+
+body {
+    width: 100%;
+    height: 600px;
+    background-image: url(../Content/img/triangles-g94f806476_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img {
+    margin: 4%;
+}
+
+.modal-content {
+    background-image: url(../Content/img/fondo2.jpg);
+    height: 440px;
+}
+
+
+
+
+
+.placeholder2 {
+    background: url(../Content/img/password_32px.png)no-repeat;
+    background-position: 1rem center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 45px;
+    width: 300px;
+    border: transparent;
+    background-color: #D2D4E0;
+}
+
+.placeholder1 {
+    background: url(../Content/img/user_25px.png)no-repeat;
+    background-position: 1rem center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 45px;
+    width: 300px;
+    border: transparent;
+    background-color: #D2D4E0;
+    top: 40px;
+}
+
+.button {
+    background-color: #373447;
+    color: #888695;
+    border: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 35px;
+    width: 150px;
+}
+
+.btn {
+    opacity: 086%;
+}
+
+.all {
+    margin-top: 12%;
+}
+
+.chekbtn {
+    color: #D2D4E0;
+    margin-left: 4px;
+    margin-right: 195px;
+}
+
+.estilito {
+    padding-right: 45pt;
+    color: #D2D4E0;
+}
+
+.miestilo {
+    text-decoration: none;
+    margin-bottom: 2px;
+    color: #D2D4E0;
+}
+
+
+body {
+    width: 100%;
+    height: 600px;
+    background-image: url(../Content/img/triangles-g94f806476_1280.png);
+    background-repeat: no-repeat top-center;
+    background-size: cover;
+}
+
+.img {
+    margin: 4%;
+}
+
+.modal-content {
+    background-image: url(../Content/img/fondo2.jpg);
+    height: 440px;
+}
+
+
+
+
+
+.placeholder2 {
+    background: url(../Content/img/password_32px.png)no-repeat;
+    background-position: 1rem center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 45px;
+    width: 300px;
+    border: transparent;
+    background-color: #D2D4E0;
+}
+
+.placeholder1 {
+    background: url(../Content/img/user_25px.png)no-repeat;
+    background-position: 1rem center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 45px;
+    width: 300px;
+    border: transparent;
+    background-color: #D2D4E0;
+    top: 40px;
+}
+
+.button {
+    background-color: #373447;
+    color: #888695;
+    border: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 35px;
+    width: 150px;
+}
+
+.btn {
+    opacity: 086%;
+}
+
+.all {
+    margin-top: 12%;
+}
+
+.chekbtn {
+    color: #D2D4E0;
+    margin-left: 4px;
+    margin-right: 195px;
+}
+
+.estilito {
+    padding-right: 45pt;
+    color: #D2D4E0;
+}
+
+.miestilo {
+    text-decoration: none;
+    margin-bottom: 2px;
+    color: #D2D4E0;
+}
+
+
