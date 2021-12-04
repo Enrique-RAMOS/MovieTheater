@@ -20,8 +20,6 @@ namespace MovieTheater.Repository
             bd.SaveChanges();
         }
 
-
-
         public void Delete(Login l)
 
         {
