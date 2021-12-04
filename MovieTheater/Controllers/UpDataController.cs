@@ -17,8 +17,6 @@ namespace MovieTheater.Controllers
         UpData upData = new UpData();
 
 
-        
-
 
         [HttpGet]
         public ActionResult Index()
