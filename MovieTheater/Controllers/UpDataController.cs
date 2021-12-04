@@ -9,14 +9,11 @@ using System.Web.Mvc;
 
 namespace MovieTheater.Controllers
 {
-   
 
     public class UpDataController : Controller
     {
         UpDataRepository updataRepository = new UpDataRepository();
         UpData upData = new UpData();
-
-
 
         [HttpGet]
         public ActionResult Index()

@@ -13,8 +13,6 @@ namespace MovieTheater.Servicios
 
         void Delete(UpData c);
 
-
-
         List<UpData> ListDataUpData();
     }
 }

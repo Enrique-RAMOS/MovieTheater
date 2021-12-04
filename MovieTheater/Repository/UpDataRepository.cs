@@ -16,8 +16,6 @@ namespace MovieTheater.Repository
         public void Create(UpData c)
         {
 
-
-
             bd.UpData.Add(c);
             bd.SaveChanges();
         }
